@@ -1,0 +1,50 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+
+
+    animation: widthanime 3s ease-in 0s infinite normal ;
+
+}
+
+@keyframes widthanime {
+    from {
+        width: 10px;
+    }
+    to 
+    {
+        width: 100px;
+    }
+}
+
+@keyframes fontanime {
+    from {font-size: 20px;}
+    to 
+    {font-size: 40px;}
+}
+
+@keyframes coloranime {
+    from {color: green;}
+    to 
+    {color: red;}
+}
+
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (max-width: 400px ) {
+    h1 {
+    background-color: red;
+    color: white;
+}
+}
+
+@media (orientation: landscape) {
+    h1 {
+        background-color: aqua;
+        color: brown;
+    }
+}

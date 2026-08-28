@@ -1,0 +1,14 @@
+#box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.box-one {
+    background-color: aquamarine;
+}
+
+.box-two {
+    background-color: darksalmon;
+}

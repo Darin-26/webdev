@@ -1,0 +1,40 @@
+/* section {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    border: 2px solid aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+div {
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+   
+    
+}
+ */
+
+.navbar {
+    height: 50px;
+    width: 900px;
+    background-color: hotpink;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    font-size: 24px;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+}
+
