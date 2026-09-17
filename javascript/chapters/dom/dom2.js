@@ -53,9 +53,35 @@
 
 // p.addEventListener('click', changeColor);
 
-let btn = document.querySelector('button');
+// let btn = document.querySelector('button');
 
-btn.addEventListener('click', function () {
-    console.log('button clicked');
+// btn.addEventListener('click', function (event) {
+    
+
+//     console.log('button clicked');
+// });
+
+// let inp = document.querySelector("input");
+
+// inp.addEventListener("keydown", function(event) {
+//     console.log('key pressed');
+//     console.log(event.key);
+//     console.log(event.code)
+// });
+
+let form = document.querySelector('form');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+});
+
+let user = document.querySelector('#user');
+
+user.addEventListener('input', function() {
+    console.log('input changed');
+    console.log('final value = ', this.value);
 })
+
  
+
