@@ -15,6 +15,10 @@ button.addEventListener('click', () => {
     
 })
 
+items.addEventListener('click', () => {
+    console.log('clicked ')
+})
+
 // let delbtns = document.querySelectorAll('.delete');
 // for ( btns of delbtns ) {
 //     delbtns.addEventListener('click', () => {
