@@ -6,18 +6,11 @@
     <title>instagram</title>
 </head>
 <body>
-    <h1>this page belongs to <%= username %> </h1>
+    <h1>this page belongs to @<%= data.name %> </h1>
     <button>FOllow</button>
     <button>send message</button>
     
-    <h3>Followers list</h3>
-    <ul>
-        <% 
-        for ( let user of followers ) { %>
-            <li> <%=user %></li>
     
-    <%}%>
-    </ul>
 </body>
 </html>
 

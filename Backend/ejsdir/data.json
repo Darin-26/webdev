@@ -1,0 +1,90 @@
+{
+    "cats": {
+        "name": "cats",
+        "followers": 25000,
+        "following": 5,
+        "posts": [
+            {
+                "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba",
+                "likes": 1200,
+                "comments": 85
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5",
+                "likes": 875,
+                "comments": 42
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1495360010541-f48722b34f7d",
+                "likes": 2300,
+                "comments": 156
+            }
+        ]
+    },
+    "dogs": {
+        "name": "dogs",
+        "followers": 75000,
+        "following": 120,
+        "posts": [
+            {
+                "image": "https://images.unsplash.com/photo-1552053831-71594a27632d",
+                "likes": 3400,
+                "comments": 210
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1587300003388-59208cc962cb",
+                "likes": 1875,
+                "comments": 97
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b",
+                "likes": 5200,
+                "comments": 318
+            }
+        ]
+    },
+    "travel": {
+        "name": "travel",
+        "followers": 120000,
+        "following": 450,
+        "posts": [
+            {
+                "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+                "likes": 8900,
+                "comments": 430
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+                "likes": 12500,
+                "comments": 610
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1",
+                "likes": 7600,
+                "comments": 275
+            }
+        ]
+    },
+    "food": {
+        "name": "food",
+        "followers": 56000,
+        "following": 85,
+        "posts": [
+            {
+                "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+                "likes": 2100,
+                "comments": 143
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
+                "likes": 3400,
+                "comments": 205
+            },
+            {
+                "image": "https://images.unsplash.com/photo-1547592180-85f173990554",
+                "likes": 1750,
+                "comments": 89
+            }
+        ]
+    }
+}
